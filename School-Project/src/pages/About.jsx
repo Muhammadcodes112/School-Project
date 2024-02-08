@@ -1,5 +1,5 @@
 import React from "react";
-import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
+import GallerySection from "../components/GallerySection";
 
 function About(){
     return(
@@ -22,6 +22,8 @@ function About(){
                 </div>
             </div>
            
+
+           <GallerySection />
         </div>
     )
 }
